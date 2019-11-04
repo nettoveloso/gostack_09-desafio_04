@@ -10,19 +10,9 @@ As informações contidas na interface são **estáticas** e não precisam refle
 
 ### Tela da aplicação
 
-![Facebook](.github/facebook.png)
-
-O layout não precisa ficar exatamente igual, você pode utilizar sua criatividade para modificar da maneira que preferir.
+O layout não precisa ficar exatamente igual ao feed do facebook, você pode utilizar sua criatividade para modificar da maneira que preferir.
 
 O mais importante é que todos elementos apareçam em tela.
-
-O layout da aplicação está [nesse link](.github/layout.sketch) que pode ser aberto por essa ferramenta gratuita e online: https://www.figma.com/
-
-### Componentes
-
-Na imagem abaixo destaquei cada componente que você criará e abaixo da imagem está a descrição e responsabilidades de cada um:
-
-![Componentes](.github/components.png)
 
 **Header (Amarelo):** Responsável por exibir a logo e o link para acessar o perfil;
 
@@ -72,8 +62,10 @@ posts.map(post => <Post key={post.id} data={post} />);
 data.comments.map(comment => <Comment key={comment.id} data={comment} />);
 ```
 
+---
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
----
+
